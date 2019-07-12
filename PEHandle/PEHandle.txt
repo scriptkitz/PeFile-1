@@ -1,0 +1,45 @@
+﻿
+所需功能
+查看PE文件格式
+编辑PE文件
+二级制查看工具
+地址互相转换
+资源编辑
+
+添加节
+PE文件对比
+添加导入函数
+PE变形（压缩）
+在此程序入口添加代码
+简单加壳
+简单脱壳
+
+
+PE Parse Core
+
+PEParser
+
+PEFile
+IsChanged
+SaveAs()	//将peBytes中的值保存成一个文件
+
+
+PEStruct
+
+Element
+{
+	string Value
+	int Size
+	int FOA
+	string Format
+}
+
+Form
+//1.修改时要修改PEFile和二级制的数据
+
+
+
+
+
+
+
